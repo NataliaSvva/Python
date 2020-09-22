@@ -16,7 +16,7 @@ with open('text_7.txt', 'r', encoding="utf-8") as file:
         print(f'Прибыль средняя - {prof_aver:.2f}')
     else:
         print(f'Прибыль средняя - отсутсвует. Все работают в убыток')
-    pr = {'средняя прибыль': round(prof_aver)}
+    pr = {'Sp_profit': round(prof_aver)}
     profit.update(pr)
     print(f'Прибыль каждой компании - {profit}')
 with open('file_7.json', 'w') as write_js:
